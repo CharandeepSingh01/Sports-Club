@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel ="stylesheet" href ="Subscription.css" >
+</head>
+
+
+<body>
+    
+<form>
+    <fieldset>
+        
+    <div class="container">
+      <h1>SUBSCRIPTION</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <h3> Select Your Ideal Club</h3>
+<p>Various Clubs:-
+    <select name="CLUB" id="CLUB">
+    <option value="">--Select Your Club--</option>
+    <option value="Volleyball">Volleyball</option>
+    <option value="Football">Football</option>
+    <option value="Badminton">Badminton</option>
+    <option value="Swimming">Swimming</option>
+    
+    </select>
+    </p>
+      <h3> CARD-DETAILS</h3> 
+    
+      <p> 
+          Card-Type:*<select name="card_type" id="card_type"required >
+          <option value=" ">--select a card type--</option>
+          <option value="VISA">VISA</option>
+          <option value ="MASTER">MASTER</option>
+          <option value="RUPAY">RUPAY</option>
+          </select></p>
+      <p> Card-Number:*<input type="number" name="number" id="number" placeholder="00000000000000000" required> </p>
+     <p>  Expiration Date:*<input type="date" name="exp_date" id="exp_date" required></p>
+<p> CVV:*<input type="password" name="cvv" id="cvv" placeholder="Enter" required></p>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+    
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">CANCEL</button>
+        <button type="submit" class="signupbtn"> PAY NOW</button>
+      </div>
+    </div>
+    </fieldset>
+  </form>
+
+    
+</body>
+</html>
